@@ -1,0 +1,214 @@
+body    {
+    background-color: black;
+    
+
+}
+
+.sidebar    {
+    color: white;
+    float: left;
+    border-right: solid 1px white;
+    border-left: solid 1px white;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    width: 140px;
+    height: 730px;
+    background-color: black;
+    
+    
+}
+
+ul  {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 110px;
+
+}
+
+li  {
+    padding-top: 40px;
+
+
+}
+
+.header {
+    color: white;
+    padding-right: 30px;
+    text-align: right;
+    border-bottom: solid 1px white;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    border-top: solid 1px white;
+
+}
+
+a   {
+    color: white;
+
+}
+
+a:hover{
+    color: red;
+
+}
+
+.belowhead  {
+    color: white;
+    word-spacing: 10px;
+    padding-left: 240px;
+
+}
+
+.belowhead a    {
+    color: red;
+
+}
+
+#container  {
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    margin-left: 310px;
+    border-radius: 5px;
+
+}
+
+#container > h2 {
+    color: red;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+
+.names  {
+    display: inline;
+
+}
+
+#firstName input    {
+    width: 425px;
+    height: 30px;
+    margin-left: 50px;
+    /*padding-left: 10px;*/
+
+}
+
+#lastName input    {
+    width: 425px;
+    height: 30px;
+    margin-left: 42px;
+    
+}
+
+input   {
+    background-color: lightgray;
+    font-weight: bolder;
+    color: white;
+    border: lightgray;
+
+}
+
+::placeholder   {
+    color: white;
+}
+
+.mail input {
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 900px;
+
+}
+
+.code-number    {
+    display: inline;
+
+}
+
+#code   {
+    margin-top: 30px;
+
+}
+
+#code select    {
+    background-color: lightgray;
+    font-weight: bolder;
+    color: white;
+    border: lightgray;
+    width: 250px;
+    height: 30px;
+    margin-left: 50px;
+
+}
+
+#number {
+    margin-top: 30px;
+
+}
+
+#number input   {
+    width: 575px;
+    height: 30px;
+    margin-left: 70px;
+
+}
+
+.gen-nat    {
+    display: inline;
+
+}
+
+.sport-cat  {
+    display: inline;
+
+}
+
+#gender {
+    margin-top: 30px;
+
+}
+
+#gender select, #sport select  {
+    background-color: lightgray;
+    font-weight: bolder;
+    color: white;
+    border: lightgray;
+    height: 30px;
+    width: 425px;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+
+#nationality select, #category select  {
+    background-color: lightgray;
+    font-weight: bolder;
+    color: white;
+    border: lightgray;
+    height: 30px;
+    width: 425px;
+    margin-left: 50px;
+
+}
+
+.button {
+    position: relative;
+    margin-left: 50px;
+
+}
+
+.button button  {
+    width: 900px;
+    margin-top: 30px;
+    background-color: crimson;
+    border: crimson;
+    color: white;
+    height: 50px;
+
+}
+
+
