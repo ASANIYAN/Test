@@ -1,0 +1,463 @@
+body    {
+    background-color: black;
+    
+
+}
+
+.sidebar    {
+    color: white;
+    float: left;
+    border-right: solid 1px white;
+    border-left: solid 1px white;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    width: 140px;
+    height: 730px;
+    background-color: black;
+      
+}
+
+ul  {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 110px;
+
+}
+
+li  {
+    padding-top: 40px;
+
+
+}
+
+.header {
+    color: white;
+    padding-right: 30px;
+    text-align: right;
+    border-bottom: solid 1px white;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    border-top: solid 1px white;
+
+}
+
+a   {
+    color: white;
+
+}
+
+a:hover{
+    color: red;
+
+}
+
+.belowhead  {
+    color: white;
+    word-spacing: 10px;
+    padding-left: 240px;
+
+}
+
+.belowhead a    {
+    color: red;
+
+}
+
+#container  {
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+
+}
+
+#container > h2 {
+    color: red;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+#firstName input    {
+    float: left;
+    width: 42%;
+    height: 30px;
+    margin-left: 50px;
+
+}
+
+#lastName input    {
+    width: 42%;
+    height: 30px;
+    margin-left: 55px;
+    
+}
+
+input   {
+    background-color: lightgray;
+    font-weight: bolder;
+    color: white;
+    border: lightgray;
+
+}
+
+::placeholder   {
+    color: white;
+}
+
+.mail input {
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 90%;
+
+}
+
+#code select    {
+    float: left;
+    background-color: lightgray;
+    font-weight: bolder;
+    color: white;
+    border: lightgray;
+    height: 30px;
+    margin-left: 50px;
+    width: 25%;
+    margin-top: 30px;
+
+}
+
+#number input   {
+    height: 30px;
+    margin-left: 100px;
+    width: 55%;
+    margin-top: 30px;
+
+}
+
+#gender {
+    margin-top: 30px;
+
+}
+
+#gender select, #sport select  {
+    float: left;
+    background-color: lightgray;
+    font-weight: bolder;
+    color: white;
+    border: lightgray;
+    height: 30px;
+    width: 42%;
+    margin-left: 50px;
+
+}
+
+
+#nationality select, #category select  {
+    background-color: lightgray;
+    font-weight: bolder;
+    color: white;
+    border: lightgray;
+    height: 30px;
+    width: 42%;
+    margin-left: 62px;
+
+}
+
+.sport-cat  {
+    margin-top: 30px;
+
+}
+
+.button {
+    margin-left: 50px;
+
+}
+
+.button button  {
+    width: 90%;
+    margin-top: 30px;
+    background-color: crimson;
+    border: crimson;
+    color: white;
+    height: 50px;
+
+}
+
+@media screen and (min-width: 0px) and (max-width:601px)    {
+    .sidebar    {
+        visibility: hidden;
+        float: none;
+        height: 0;
+        width: 0;
+
+    }
+
+    .header {
+        font-size: small;
+
+    }
+
+    .belowhead  {
+        font-size: small;
+        padding-left: 0px;
+        text-align: center;
+
+    }
+
+    #container > h2 {
+        font-size: smaller;
+        padding-top: 10px;
+
+    }
+
+    #firstName input    {
+        height: 30px;
+        margin-left: 10px;
+        border-radius: 12px;
+    
+    }
+    
+    #lastName input    {
+        height: 30px;
+        margin-left: 15px;
+        border-radius: 12px;
+        
+    }
+
+    .mail input {
+        margin-left: 10px;
+        border-radius: 12px;
+
+    }
+
+    #code select    {
+        margin-left: 10px;
+        border-radius: 12px;
+    
+    }
+    
+    #number input   {
+        margin-left: 28px;
+        border-radius: 12px;
+    
+    }
+
+    #gender select, #sport select  {
+        margin-left: 10px;
+        border-radius: 12px;
+    
+    }
+    
+    
+    #nationality select, #category select  {
+        margin-left: 16px;
+        border-radius: 12px;
+    
+    }
+
+    .button button  {
+        margin-top: 80px;
+        margin-left: -15px;
+        border-radius: 12px;
+    
+    }
+
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 874px) {
+
+    .sidebar    {
+        visibility: hidden;
+        float: none;
+        height: 0;
+        width: 0;
+
+    }
+
+    .header {
+        font-size: small;
+
+    }
+
+    .belowhead  {
+        font-size: small;
+        padding-left: 0px;
+        text-align: center;
+
+    }
+
+    #container > h2 {
+        font-size: smaller;
+        padding-top: 10px;
+
+    }
+
+    #firstName input    {
+        height: 30px;
+        margin-left: 35px;
+        border-radius: 12px;
+    
+    }
+    
+    #lastName input    {
+        height: 30px;
+        margin-left: 35px;
+        border-radius: 12px;
+        
+    }
+
+    .mail input {
+        margin-left: 35px;
+        border-radius: 12px;
+
+    }
+
+    #code select    {
+        margin-left: 35px;
+        border-radius: 12px;
+    
+    }
+    
+    #number input   {
+        margin-left: 68px;
+        border-radius: 12px;
+    
+    }
+
+    #gender select, #sport select  {
+        margin-left: 35px;
+        border-radius: 12px;
+    
+    }
+    
+    
+    #nationality select, #category select  {
+        margin-left: 42px;
+        border-radius: 12px;
+    
+    }
+
+    .button button  {
+        margin-top: 80px;
+        margin-left: 5px;
+        border-radius: 12px;
+    
+    }
+
+
+
+}
+
+@media screen and (min-width: 875px) and (max-width: 1200px) {
+
+    .header {
+        font-size: small;
+
+    }
+
+    .belowhead  {
+        font-size: large;
+        padding-left: 0px;
+        text-align: center;
+
+    }
+
+    #container > h2 {
+        font-size: larger;
+        padding-top: 10px;
+
+    }
+
+    #firstName input    {
+        height: 30px;
+        margin-left: 55px;
+        border-radius: 12px;
+        width: 35%;
+    
+    }
+    
+    #lastName input    {
+        width: 35%;
+        height: 30px;
+        margin-left: 40px;
+        border-radius: 12px;
+        
+    }
+
+    .mail input {
+        width: 75%;
+        margin-left: 55px;
+        border-radius: 12px;
+
+    }
+
+    #code select    {
+        margin-left: 55px;
+        border-radius: 12px;
+    
+    }
+    
+    #number input   {
+        width: 45%;
+        margin-left: 50px;
+        border-radius: 12px;
+    
+    }
+
+    #gender select, #sport select  {
+        width: 35%;
+        margin-left: 55px;
+        border-radius: 12px;
+    
+    }
+    
+    
+    #nationality select, #category select  {
+        width: 35%;
+        margin-left: 50px;
+        border-radius: 12px;
+    
+    }
+
+    .button button  {
+        width: 50%;
+        margin-top: 80px;
+        margin-left: 200px;
+        border-radius: 12px;
+    
+    }
+
+
+
+}
+
+@media screen and (min-width: 1105px) and (max-width: 1200px)    {
+
+    #firstName input    {
+        margin-left: 80px;
+    
+    }
+
+    .mail input {
+        margin-left: 80px;
+
+    }
+
+    #code select    {
+        margin-left: 80px;
+
+    }
+
+    #gender select, #sport select  {
+        margin-left: 80px;
+    
+    }
+
+}
+
+
+
+
